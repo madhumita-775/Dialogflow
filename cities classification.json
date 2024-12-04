@@ -1,0 +1,74 @@
+{
+  "id": "7dacc1b9-08e5-41f7-bf22-d92620875908",
+  "name": "cities classification",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bec8ed39-bbb2-4272-8f6f-5bbe3572dab9",
+          "name": "geo-city",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "value": "$geo-city",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "color": "#03fc0f",
+                    "type": "chevron_right"
+                  },
+                  "type": "button",
+                  "text": "CITIES CLASSIFICATION FOR LOCAL/DOMESTIC TRAVEL",
+                  "link": "https://i.ibb.co/bWvq4RJ/cc.png",
+                  "event": {
+                    "languageCode": "",
+                    "name": "",
+                    "parameters": {}
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

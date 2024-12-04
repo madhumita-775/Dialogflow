@@ -1,0 +1,39 @@
+{
+  "id": "214aba71-288d-478d-8ab2-072b6c42add2",
+  "name": "Handle international claim event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Overseas Business Travel of all Associates should be initiated by the Department Head and approved by the Business Head. A request for travel must be raised by the Head of the Department and forwarded to the Business Unit Head which needs to be approved and then forwarded to the Human Resource Department."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "international_claim_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

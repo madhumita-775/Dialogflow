@@ -1,0 +1,114 @@
+{
+  "id": "3c5358cc-a646-49ef-b0b6-30a0a34adca5",
+  "name": "handle fuel_travel_event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If an Associate uses his / her own vehicle, subject to prior approval, then the reimbursement will be based on the details given below:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#03fcf4"
+                  },
+                  "text": "Petrol for two wheeler",
+                  "type": "button",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "pet_travel_event"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#03fcf4"
+                  },
+                  "type": "button",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "die_travel_event"
+                  },
+                  "text": "Diesel for four wheeler"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "event": {
+                    "languageCode": "en",
+                    "name": "die_pet_event"
+                  },
+                  "text": "Petrol for four wheeler",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#03fcf4"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "fuel_travel_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

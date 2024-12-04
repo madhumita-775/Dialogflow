@@ -1,0 +1,39 @@
+{
+  "id": "cc11f9e2-8d72-4b52-90ac-0877f493e913",
+  "name": "handle trans_public_event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If in case the vehicles in the Company pool is not available, then an\nAssociate can rent a taxi/auto/public transport with prior approval of the reporting authority, which will be reimbursed at actuals."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "trans_public_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

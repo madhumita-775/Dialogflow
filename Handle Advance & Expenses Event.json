@@ -1,0 +1,39 @@
+{
+  "id": "771783c4-cf76-43fc-8c5b-01f80f1fd39d",
+  "name": "Handle Advance \u0026 Expenses Event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "An Associate can avail travel advance based on approval from the Department Head, using the prescribed form or by email and the same has to be forwarded to the finance department three working days prior to the date of requirement. However, on any urgent requirement, the same should be made as early as possible based on approval from the Department Head / Head of the Human Resources or Head of Finance Department. All expenses incurred in connection with a business trip must be submitted to the accounts department through online employee portal or using the prescribed travel expenses form with approval of the Department Head, accompanied by supporting vouchers/bills, within 7 (seven) working days of the Associate’s return from business trip."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "Advance_Expenses_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

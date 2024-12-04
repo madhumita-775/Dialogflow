@@ -1,0 +1,39 @@
+{
+  "id": "9999c32b-6540-47d3-b4ef-694d57fd1257",
+  "name": "handle die_travel_event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For Four Wheeler Rs.8 per km for diesel vehicle. It increases according to the distance (This is applicable only for the Associates in Grade of Middle Management, Senior Management and CXOs \u0026 Directors, which may also be extended to Junior Management only with prior approval from the Human Resource Department."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "die_travel_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

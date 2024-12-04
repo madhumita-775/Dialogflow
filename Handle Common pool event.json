@@ -1,0 +1,39 @@
+{
+  "id": "24611e41-1263-4f01-8efa-362d59402b2c",
+  "name": "Handle Common pool event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "A number of two wheelers and four wheelers are allotted to specific company’s pool, from time-to-time based on their need. The care and maintenance, allotment of duty and provision for fuel and lubricants will also be the responsibility of the respective Company / Branch Head. A log book which records the use of the vehicle will be maintained and costs accrued for all the above said purposes will be borne by the respective Company / Branch. At times, the vehicles of one Company may be required by another Company. This should be encouraged and allowed for maximizing the utilization of resources. In such cases, the cost of fuel only will be debited to the user Company and recovered before the end of the month."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "Common_pool_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

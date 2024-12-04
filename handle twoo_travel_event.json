@@ -1,0 +1,39 @@
+{
+  "id": "93815090-617e-41e3-b376-fcdb4d192741",
+  "name": "handle twoo_travel_event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hyderabad, Kolkata, Cochin, Pune, Coimbatore, Pondicherry, Jaipur, Trivandrum,\nVadodara, Indore, Visakhapatnam, Chandigarh, Nasik, Ahmedabad, Mysore, Sri\nCity, Noida, Goa, Lucknow, Bhubaneswar, Bhopal, Nagpur, Guwahati, Calicut,\nVijayawada, Patna, Mangalore, Belgaum, Hubli, Kodaikanal, Nilgiris, etc.,"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "twoo_travel_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

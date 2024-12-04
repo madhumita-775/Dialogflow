@@ -1,0 +1,67 @@
+[
+  {
+    "id": "30362fe0-d9c8-4430-bb9d-d1ab6bfe46d8",
+    "data": [
+      {
+        "text": "food allowance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1fbaf198-c49e-4b2d-a35a-568b9690a0e7",
+    "data": [
+      {
+        "text": "food expenses",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f5907daa-b99d-43e6-9801-4217ac1e1c72",
+    "data": [
+      {
+        "text": "what are the charges for food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "77c3d6cf-438e-4f53-b23c-1b192ba461c2",
+    "data": [
+      {
+        "text": "food  Related Questions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7b310105-842e-4882-8f0e-cd81c4e09a4e",
+    "data": [
+      {
+        "text": "food allowance Queries",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

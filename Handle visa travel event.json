@@ -1,0 +1,39 @@
+{
+  "id": "eb559675-8f22-4f05-b5de-9f039597d447",
+  "name": "Handle visa travel event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "A request for Visa must be raised by the Head of the Department and forwarded to the Business Unit Head which needs to be approved and then forwarded to the Human Resource Department. Visa arrangements must be made at least 30 days prior to the date of journey (based on the country’s visa requirements), unless it is an emergency and approved by a CXO. All Visa arrangements are to be done through authorized travel agency only."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "Visa_travel_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

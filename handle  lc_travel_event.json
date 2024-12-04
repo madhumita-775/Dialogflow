@@ -1,0 +1,89 @@
+{
+  "id": "119d4181-adbd-420f-97c6-9495f6638eae",
+  "name": "handle  lc_travel_event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "These are the procedure for travel arrangements that an associate should follow to travel locally."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "event": {
+                    "languageCode": "en",
+                    "name": "per_travel_event"
+                  },
+                  "icon": {
+                    "color": "#03fcf4",
+                    "type": "chevron_right"
+                  },
+                  "type": "button",
+                  "text": "Permissions"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "button",
+                  "text": "Permission through Email",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#03fcf4"
+                  },
+                  "event": {
+                    "name": "app_travel_event",
+                    "languageCode": "en"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "lc_travel_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "e906417f-dabf-498d-ab80-5f5f551cc43d",
+    "data": [
+      {
+        "text": "domestic cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "df60d14f-5c62-4508-b92f-5faaf9a1f1e5",
+    "data": [
+      {
+        "text": "local cities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0e5fd1d5-09b8-4b62-b271-af4557fbb6e4",
+    "data": [
+      {
+        "text": "cities classification for local/ ",
+        "userDefined": false
+      },
+      {
+        "text": "domestic",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3161d4cf-28e9-4214-8928-b79c29a30047",
+    "data": [
+      {
+        "text": "cities classification",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "16f0afa4-9bc6-4a39-946b-70d551bed90b",
+    "data": [
+      {
+        "text": "what are the cities classification",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

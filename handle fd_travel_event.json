@@ -1,0 +1,114 @@
+{
+  "id": "38fd2d06-78c5-4c92-828e-d116bf9d5d75",
+  "name": "handle fd_travel_event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are the food expenses based on grades."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "event": {
+                    "name": "break_fast_event",
+                    "languageCode": "en"
+                  },
+                  "type": "button",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#03fcf4"
+                  },
+                  "text": "Breakfast"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "button",
+                  "text": "Lunch",
+                  "icon": {
+                    "color": "#03fcf4",
+                    "type": "chevron_right"
+                  },
+                  "event": {
+                    "name": "Lunch_fast_event",
+                    "languageCode": "en"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "event": {
+                    "name": "dinner_fast_event",
+                    "languageCode": "en"
+                  },
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#03fcf4"
+                  },
+                  "type": "button",
+                  "text": "Dinner"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "fd_travel_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

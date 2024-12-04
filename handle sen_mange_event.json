@@ -1,0 +1,114 @@
+{
+  "id": "f8e9fdb0-c2d2-491b-91ab-aa49a67f22c0",
+  "name": "handle sen_mange_event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "select the tier based on which city you are travelling?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "event": {
+                    "name": "event_1_event",
+                    "languageCode": "en"
+                  },
+                  "text": "Tier 1",
+                  "type": "button",
+                  "icon": {
+                    "color": "#03fcf4",
+                    "type": "chevron_right"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "color": "#03fcf4",
+                    "type": "chevron_right"
+                  },
+                  "type": "button",
+                  "text": "Tier 2",
+                  "event": {
+                    "name": "event_2_event",
+                    "languageCode": "en"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#03fcf4"
+                  },
+                  "type": "button",
+                  "text": "Tier 3",
+                  "event": {
+                    "name": "event_3_event",
+                    "languageCode": "en"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "sen_mange_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

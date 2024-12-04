@@ -1,0 +1,39 @@
+{
+  "id": "9c278e65-2fa1-4720-b5cc-5765a94aa387",
+  "name": "handle conveyance travel event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For the purpose of local travel, all Associates shall prefer to travel by the most economical mode of transport such as (Local Taxi/Metro/Tram/Bus). In locations where Pricol Group has its own conveyance facility the Associates must use Company vehicle instead of using other sources during business travel. The ideal grouping shall be 2 or more Associates per cab while hiring a taxi."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "conveyance_travel_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

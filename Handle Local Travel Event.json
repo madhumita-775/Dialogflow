@@ -1,0 +1,189 @@
+{
+  "id": "1fa08aa3-a076-48a1-ab7e-ee37eea0cf9b",
+  "name": "Handle Local Travel Event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hey there! planning a local trip ?, Here are some related contents that you are looking for."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "button",
+                  "text": "LOCAL TRAVEL ARRANGEMENTS",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "lc_travel_event"
+                  },
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#03fcf4"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "CITIES CLASSIFICATION",
+                  "type": "button",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#03fcf4"
+                  },
+                  "event": {
+                    "name": "class_travel_event",
+                    "languageCode": "en"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "VEHICLE FACILITIES",
+                  "type": "button",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#03fcf4"
+                  },
+                  "event": {
+                    "languageCode": "en",
+                    "name": "fac_travel_event"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "color": "#03fcf4",
+                    "type": "chevron_right"
+                  },
+                  "type": "button",
+                  "text": "FUEL EXPENSES",
+                  "event": {
+                    "name": "fuel_travel_event",
+                    "languageCode": "en"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "button",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#03fcf4"
+                  },
+                  "text": "LOCAL CONVEYANCE ELIGIBILITY",
+                  "event": {
+                    "name": "con_travel_event",
+                    "languageCode": "en"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "color": "#03fcf4",
+                    "type": "chevron_right"
+                  },
+                  "text": "FOOD EXPENSES",
+                  "type": "button",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "fd_travel_event"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "local_travel_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,139 @@
+{
+  "id": "020c44fa-c2e6-4cce-89f3-f21e3bf24b81",
+  "name": "handle fac_travel_event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "When an Associate travels within a radius of 150 Kms (within the city or to the nearby cities) from the assigned work location,These are the available facilities for vehicles provided to an associate while travelling locally."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "Two Wheeler",
+                  "type": "button",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#03fcf4"
+                  },
+                  "event": {
+                    "name": "wheeler_two_event",
+                    "languageCode": "en"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "event": {
+                    "name": "wheeler_four_event",
+                    "languageCode": "en"
+                  },
+                  "type": "button",
+                  "text": "Four Wheeler",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#03fcf4"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "Own Vehicle",
+                  "event": {
+                    "name": "wheeler_own_event",
+                    "languageCode": "en"
+                  },
+                  "type": "button",
+                  "icon": {
+                    "color": "#03fcf4",
+                    "type": "chevron_right"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "color": "#03fcf4",
+                    "type": "chevron_right"
+                  },
+                  "text": "Public Transport",
+                  "type": "button",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "trans_public_event"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "fac_travel_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

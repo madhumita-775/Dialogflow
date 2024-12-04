@@ -1,0 +1,39 @@
+{
+  "id": "c087ae5a-81a6-4a43-bf4d-61ef5cddf0ba",
+  "name": "handle points note event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "1. In case of air travel, the travel request need to be routed through the Head of the Department and approved by the Business Head.\n2. All air travel request must be raised 15 days prior to the date of travel. Only on emergency situations, the air travel can be planned on a shorter duration; however, this needs approval from the Business Head and the Human Resource Department.\n3. All Associates are advised to travel only by economy class and choose an optimal route and the most economic carrier. All tickets should be booked through the Company’s authorized travel agency only."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "Points_note_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ebbe0d46-2d26-4e36-bf6f-157fd9e825f2",
+  "name": "handle wheeler_two_event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "A number of two wheelers are allotted to specific company’s pool, from\ntime-to-time based on their need. The care and maintenance, allotment of duty and provision for fuel and lubricants will also be the responsibility of the respective Company / Branch Head. At times, the vehicles of one Company may be required by another Company. This should be encouraged and allowed for maximizing the utilization of resources. In such cases, the cost of fuel only will be debited to the user Company and recovered before the end of the month."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "wheeler_two_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

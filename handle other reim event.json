@@ -1,0 +1,39 @@
+{
+  "id": "a09ba6fa-9186-4592-92d0-0e26b5853d3b",
+  "name": "handle other reim event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "In case the organization does not make arrangements for the below mentioned services, the expenses incurred by the Associate will be reimbursed on actuals on providing bills to support the claim. Associates are encouraged to avail Uber/Ola taxi services wherever possible.\n* Taxi fare from home to airport\n* Taxi fare from airport to guest house/hotel\n*Airport tax on departure from India\n*Airport tax at destination, if any\n* Immigration related expenses, if any\n* Excess baggage (Domestic only – The baggage weight shall not exceed the baggage allowance permitted in an international carrier)                                                                                               Excess baggage charges will not be reimbursed for international connections, unless any samples or any other materials are carried for business purpose (This needs prior approval from the Business Head)."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "other_reim_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

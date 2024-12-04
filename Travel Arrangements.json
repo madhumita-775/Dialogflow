@@ -1,0 +1,100 @@
+{
+  "id": "7678573d-7b9e-475e-a560-1d00e975996d",
+  "name": "Travel Arrangements",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4b10d8a0-c96d-4104-bda4-fd24cdb3052f",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "It is mandatory that all travel related arrangements including ticket booking and stay should be routed through the Human Resource Department to the travel desk, however the travel arrangements can be directly availed on an emergency situation with the permission of the Business Head with an email/written approval."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "TRAVEL ADVANCE AND EXPENSES",
+                  "type": "button",
+                  "event": {
+                    "name": "Advance_Expenses_event",
+                    "languageCode": "en"
+                  },
+                  "icon": {
+                    "color": "#FF9800",
+                    "type": "chevron_right"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "COMMON POOL TWO WHEELER \u0026 FOUR WHEELER",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "Common_pool_event"
+                  },
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#FF9800"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

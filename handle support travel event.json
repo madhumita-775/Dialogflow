@@ -1,0 +1,39 @@
+{
+  "id": "0974ba68-1c5b-4f31-ab29-46ec5d58c944",
+  "name": "handle support travel event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "An Associate travelling overseas for business travel to other Pricol business units, may collect a minimum travel advance from the respective work location (Home Country), just to support their basic expenses until they reach the destination. On arrival to the hosting company, they can avail an advance as per the eligibility mentioned in Per diem allowance table. This travel advance from the home county can be up to $100 USD or € 100 EUR only. On completion of the journey, the associate must submit the expense report along with relevant bills towards the above stated advance taken from India."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "support_travel_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

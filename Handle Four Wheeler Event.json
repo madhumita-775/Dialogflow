@@ -1,0 +1,39 @@
+{
+  "id": "c12d90e3-cf3d-4b65-89a5-5f72649029e3",
+  "name": "Handle Four Wheeler Event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If an Associate uses his / her own four  vehicle, subject to prior approval, then the reimbursement will be based on the details given below:                                                Four wheeler at Rs.9 per km for petrol vehicle and Rs.8 per km for diesel vehicle. (This is applicable only for the Associates in Grade of Middle Management, Senior Management and CXOs \u0026 Directors, which may also be extended to Junior Management only with prior approval from the Human Resource Department."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "four_wheeler_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

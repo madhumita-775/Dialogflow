@@ -1,0 +1,39 @@
+{
+  "id": "e481309e-abfc-45b2-a78b-13bae570b0a3",
+  "name": "Handle mobile phone event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "*During an international travel, an Associate is encouraged to procure a SIM card from the travelling country.\n*Few critical positions will be exempted to activate temporary international roaming facility (For specified days and not on a permanent basis), specific only to the travelling county and not a general international roaming.                                              \n *In this case of temporary roaming activation, if the roaming limit\nexceeds because of excessive personal usage or over consumption of data for irrelevant usage, the charges for that over consumption will be deducted from the respective Associate.\n *In order to activate this temporary international roaming, an Associate must obtain approval from the Human Resource department and present it to the IT department for activation."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "mobile_phone_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

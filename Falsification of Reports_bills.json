@@ -1,0 +1,35 @@
+{
+  "id": "e944be82-236c-4fcf-b573-752bb8642daa",
+  "name": "Falsification of Reports/bills",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Any falsification / misrepresentation of expenses reports/bills will be viewed as a serious misconduct. This shall attract serious action from the management, which could be up to termination without notice."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

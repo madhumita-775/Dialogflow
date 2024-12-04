@@ -1,0 +1,39 @@
+{
+  "id": "7f35a8b9-65b8-4cd7-b459-c9772fdf259d",
+  "name": "handle die_pet_event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Four wheeler at Rs.9 per km for petrol vehicle . It increases according to the distance you travel (This is applicable only for the Associates in Grade of Middle Management, Senior Management and CXOs \u0026 Directors, which may also be extended to Junior Management only with prior approval from the Human Resource Department."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "die_pet_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

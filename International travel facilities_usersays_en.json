@@ -1,0 +1,106 @@
+[
+  {
+    "id": "030abf34-c551-462a-a7fd-0ad09a49cd0a",
+    "data": [
+      {
+        "text": "mobile phone usage on international travel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b4b69093-ca8b-4121-bc68-93ee0ee4ca74",
+    "data": [
+      {
+        "text": "visa processing for international travel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2a6e067e-05df-482d-b377-fe30118d59a5",
+    "data": [
+      {
+        "text": "class of travel for international travel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7e89fb63-21fc-4488-b3b1-06061f9a32bf",
+    "data": [
+      {
+        "text": "tickets for international travel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e0b6e4f7-9ffc-4153-a7d8-b494562c375a",
+    "data": [
+      {
+        "text": "international facilities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "06493a25-dfc2-4e14-b374-32ed67d7a9bd",
+    "data": [
+      {
+        "text": "facilities in international travel policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f47b4ffb-3c00-4d96-9813-c9f386370cd1",
+    "data": [
+      {
+        "text": "international travel facilities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cae4f247-7bdb-41b5-8f2d-ff03bcd97a1d",
+    "data": [
+      {
+        "text": "what are the international travel facilities in the policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

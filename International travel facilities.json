@@ -1,0 +1,232 @@
+{
+  "id": "e38406e5-0e64-497f-9df7-e780f6c21af2",
+  "name": "International travel facilities",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": "AIR TICKETS",
+                  "icon": {
+                    "color": "#fcfc03",
+                    "type": "chevron_right"
+                  },
+                  "event": {
+                    "languageCode": "en",
+                    "name": "air_tickets_event"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "event": {
+                    "languageCode": "en",
+                    "name": "class_travel_event"
+                  },
+                  "type": "button",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#fcfc03"
+                  },
+                  "text": "CLASS OF TRAVEL"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "color": "#fcfc03",
+                    "type": "chevron_right"
+                  },
+                  "type": "button",
+                  "text": "VISA",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "Visa_travel_event"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "button",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "mobile_phone_event"
+                  },
+                  "text": "MOBILE PHONE USAGE ON INTERNATIONAL ROAMING",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#fcfc03"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "event": {
+                    "languageCode": "en",
+                    "name": "support_travel_event"
+                  },
+                  "text": "INITIAL TRAVEL SUPPORT ADVANCE FROM HOME COUNTRY",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#fcfc03"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "button",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#fcfc03"
+                  },
+                  "text": "CONVEYANCE",
+                  "event": {
+                    "name": "conveyance_travel_event",
+                    "languageCode": "en"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#fcfc03"
+                  },
+                  "type": "button",
+                  "event": {
+                    "languageCode": "en",
+                    "name": "other_reim_event"
+                  },
+                  "text": "OTHER REIMBURSMENT"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "event": {
+                    "languageCode": "en",
+                    "name": "Points_note_event"
+                  },
+                  "icon": {
+                    "color": "#fcfc03",
+                    "type": "chevron_right"
+                  },
+                  "text": "POINTS TO NOTE",
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

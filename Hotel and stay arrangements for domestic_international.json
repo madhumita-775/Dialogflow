@@ -1,0 +1,121 @@
+{
+  "id": "8a2fd18d-39b7-41a6-99d0-29bcc4ede3cb",
+  "name": "Hotel and stay arrangements for domestic/international",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "link": "https://i.ibb.co/ncJ1LLD/d-hs.png",
+                  "type": "button",
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "",
+                    "name": ""
+                  },
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#fcfc03"
+                  },
+                  "text": "DOMESTIC HOTEL AND STAY ARRANGEMENTS"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Associates will be provided with Guest house accommodation in most of the cities where Pricol Group has its Guest house facility. Wherever Guest house facility is not available, the arrangements for accommodation should be made through the Pricol authorized travel agency, as per the eligibility given below. Primary consideration for hotel accommodation should be proximity to the work place.\n   Following are the limits that cover room only (Applicable taxes extra)"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#fcfc03"
+                  },
+                  "link": "https://i.ibb.co/3sTF3QR/in-ds.png",
+                  "type": "button",
+                  "text": "INTERNATIONAL HOTEL AND STAY ARRANGEMENTS",
+                  "event": {
+                    "name": "",
+                    "parameters": {},
+                    "languageCode": ""
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "event": {
+                    "name": "Points_travel_event",
+                    "languageCode": "en"
+                  },
+                  "text": "POINTS TO NOTE",
+                  "icon": {
+                    "color": "#fcfc03",
+                    "type": "chevron_right"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

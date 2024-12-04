@@ -1,0 +1,39 @@
+{
+  "id": "deadedd0-012b-4a14-938d-a733a48d847e",
+  "name": "Handle International Travel",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "*This policy covers all Associates of Pricol Group who are on overseas travel for business purposes for a maximum of 30 days.                                                                         *To ensure all Associates travelling overseas on official duty are provided with appropriate facilities and entitlements during their period of travel and to ensure that their travel is effectively managed."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "International_travel_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

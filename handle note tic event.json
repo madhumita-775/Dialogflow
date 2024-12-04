@@ -1,0 +1,39 @@
+{
+  "id": "9e817db4-7367-4121-8972-d38b2b2fd262",
+  "name": "handle note tic event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "1. This allowance can be availed, only after receiving the visa and the air tickets. An Associate is expected to get the reimbursement for the above said expenses by providing the original bills to the Human Resource department for approval and later submitted to the finance department for payment.\n2. The bill amount or the eligible amount, whichever is less, will be considered for\nreimbursement."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "note_tic_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

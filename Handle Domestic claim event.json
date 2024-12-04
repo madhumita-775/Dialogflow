@@ -1,0 +1,39 @@
+{
+  "id": "43c024c3-eea4-460a-a125-f4834618bea1",
+  "name": "Handle Domestic claim event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "A business trip shall be planned and travel request should be raised using a domestic travel request form / email / Employee Portal at least 5 (Five) days prior to the travel date, unless it is for an unplanned and emergency business trip. In the case of an air travel, the travel request must be raised at least 15 (Fifteen) days prior to the date of travel unless it is for any business emergency. The Associate shall proceed for any travel arrangement only after obtaining approval from the above mentioned authorized positions."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "domestic_claim_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

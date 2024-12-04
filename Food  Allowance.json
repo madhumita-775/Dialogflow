@@ -1,0 +1,123 @@
+{
+  "id": "416d3a51-5369-48db-bd3f-9ac66d474d96",
+  "name": "Food  Allowance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "icon": {
+                    "color": "#03fcf4",
+                    "type": "chevron_right"
+                  },
+                  "event": {
+                    "name": "",
+                    "languageCode": "",
+                    "parameters": {}
+                  },
+                  "type": "button",
+                  "text": "LOCAL TRAVEL",
+                  "link": "https://i.ibb.co/zf3xTHL/local-travel-food-expenses.png"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "button",
+                  "icon": {
+                    "type": "chevron_right",
+                    "color": "#03fcf4"
+                  },
+                  "event": {
+                    "languageCode": "",
+                    "name": "",
+                    "parameters": {}
+                  },
+                  "link": "https://i.ibb.co/KNHQL3N/Domestic-travel.png",
+                  "text": "DOMESTIC TRAVEL"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "INTERNATIONAL TRAVEL:                  Associates are entitled for living expenses during overseas travel to meet his/her food expenses and out of pocket expenses.                          \n     *They may avail cash advance towards per diem allowance for a\nmaximum period of 30 days (includes transit period).                                                                    \n    * Allowances are paid from the date of departure from India until the date of arrival back to India. Fraction of a day beyond 12 hours will be considered as one day.                       \n     *Expenses towards alcohol and tobacco are not covered.                                                               \n    * Entertainment expenses also do not form a part of travel expenses claim."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "button",
+                  "link": "https://i.ibb.co/pPjfkrd/INTERNATIONAL.png",
+                  "text": "INTERNATIONAL TRAVEL",
+                  "icon": {
+                    "color": "#03fcf4",
+                    "type": "chevron_right"
+                  },
+                  "event": {
+                    "parameters": {},
+                    "languageCode": "",
+                    "name": ""
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

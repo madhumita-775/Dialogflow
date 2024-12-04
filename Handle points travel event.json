@@ -1,0 +1,39 @@
+{
+  "id": "ef28c422-0196-44ac-86f7-53fd415f0222",
+  "name": "Handle points travel event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "*Lodging allowance can be claimed only if an Associate stays over night at the place of visit.\n* All lodging allowances are excluding taxes.\n*If an Associate makes his/her own arrangement for lodging, they can claim on the food allowance and not the other allowances like stay and laundry.\n* In which ever city, guest house accommodations are available; the Associate must stay at the guest house only. When rooms are not available in the guest house, the associate is permitted to avail hotel accommodation as per the eligibility.\n* The journey duration must be more than 8 Hours in order to claim incidental allowance and if the travel duration is less than 8 hours but more than 4 hours, they can claim 50% of the mentioned allowance.\n*Laundry allowance can be availed only for a trip which has a minimum of 4 (Four) nights stay. In order to claim the laundry expenses, the Associate must submit the laundry bills."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "Points_travel_event"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
